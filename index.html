@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educate</title>
+    <link rel="stylesheet" href="libs/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="site">
+
+        <header class="header">
+            <div class="container">
+
+                <div class="header__body">
+                    <div class="header-logo">
+                        <a href="#" class="header-logo__link"><img src="images/logo.png" alt="Лого"></a>
+                    </div>
+
+                    <input type="checkbox" id="check">
+                    <div class="header-nav__burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <nav class="header-nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item"><a href="#" class="header-nav__link">Функционал</a></li>
+                            <li class="header-nav__item"><a href="#" class="header-nav__link">Поиск преподавателей</a></li>
+                            <li class="header-nav__item"><a href="#" class="header-nav__link">Отзывы</a></li>
+                            <li class="header-nav__item"><a href="#" class="header-nav__link">Преимущества</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header-buttons">
+                        <button class="header-buttons__btn"><span class="header-buttons__enter">Вход</span></button>
+                        <button class="header-buttons__btn"><span class="header-buttons__registration">Регистрация</span></button>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <section class="main">
+
+            <div class='main-row'>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+                <div class="line main-row__line_vertical"></div>
+            </div>
+
+            <div class="container">
+
+                <div class="main-content">
+                    <h1 class="main-content__title">Преподавайте онлайн и управляйте своими занятиями</h1>
+
+                    <div class="main-content__text">
+                        <p>Используйте интерактивную виртуальную классную комнату и систему управления обучением для успешного онлайн преподавания.</p>
+                        <p>Система создана преподавателями для преподавателей.</p>
+                    </div>
+
+                    <button class="main-content__btn">Попробовать бесплатно</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="promo">
+            <div class="container">
+
+                <ul class="promo-content">
+                    <li class="promo-content__item">
+                        <div class="promo-content__videoImage">
+                            <img class="promo-content__videoImage_img" src="/images/promo_videocalls.png" alt="Видеозвонки">
+                        </div>
+                        <h3 class="promo-content__header">Видеозвонки</h3>
+                        <p class="promo-content__text">Проводите занятия онлайн по видеосвязи, обменивайтесь сообщениями и файлами, устанавливайте таймер занятия</p>
+                    </li>
+
+                    <li class="promo-content__item">
+                        <div class="promo-content__calendarImage">
+                            <img class="promo-content__calendarImage_img" src="/images/promo__calendar.png" alt="Видеозвонки">
+                        </div>
+                        <h3 class="promo-content__header">Расписание</h3>
+                        <p class="promo-content__text">Просмотр и управление расписанием занятий. Возможность добавления новых занятий, редактирования и удаления существующих</p>
+                    </li>
+
+                    <li class="promo-content__item">
+                        <div class="promo-content__managementImage">
+                            <img class="promo-content__managementImage_img" src="/images/promo__management.png" alt="Видеозвонки">
+                        </div>
+                        <h3 class="promo-content__header">Управление файлами</h3>
+                        <p class="promo-content__text">Возможность прикрепления файлов к занятиям и добавления комментариев к добавленным файлам домашних заданий</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="teachers">
+            <div class="teachers__container container">
+
+                <div class="teachers-choice__content">
+
+                    <h2 class="title-middle teachers-choice__title-middle">Поиск преподавателей</h2>
+
+                    <form>
+                        <div class="teachers-form">
+                            <div class="teacher-form__select">
+                                <span  id="selec"></span>
+                                <select name="selection" id="selection">
+                                    <option value="1">Предмет</option>
+                                    <option value="2">Предмет 1</option>
+                                    <option value="3" disabled="">Предмет 2</option>
+                                    <option value="4">Предмет 3</option>
+                                    <option value="5">Предмет 4</option>
+                                    <option value="6">Предмет 5</option>
+                                </select>
+                            </div>
+
+                            <div class="teacher-form__select">
+                                <span  id="selec"></span>
+                                <select name="selection" id="selection">
+                                    <option tionvalue="1">Опыт</option>
+                                    <option value="2">Опыт 1</option>
+                                    <option value="3">Опыт 2</option>
+                                    <option value="4" disabled="">Опыт 3</option>
+                                    <option value="5">Опыт 4</option>
+                                    <option value="6">Опыт 5</option>
+                                </select>
+                            </div>
+
+                            <div class="teacher-form__select">
+                                <span  id="selec"></span>
+                                <select name="selection" id="selection">
+                                    <option value="1">Цена</option>
+                                    <option value="2">Цена 1</option>
+                                    <option value="3">Цена 2</option>
+                                    <option value="4">Цена 3</option>
+                                    <option value="5">Цена 4</option>
+                                    <option value="6">Цена 5</option>
+                                </select>
+                            </div>
+
+                            <div class="teacher-form__select">
+                                <span  id="selec"></span>
+                                <select name="selection" id="selection">
+                                    <option value="1">Рейтинг</option>
+                                    <option value="2">Рейтинг 1</option>
+                                    <option value="3">Рейтинг 2</option>
+                                    <option value="4">Рейтинг 3</option>
+                                    <option value="5">Рейтинг 4</option>
+                                    <option value="6">Рейтинг 5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+                    <p class="teachers-choice__text-total">Найдено 140 преподавателей</p>
+
+                    <div class="teachers__cards">
+                        <div class="teachers__list">
+                            <a class="teachers__link"><img class="teachers__link_img" src="/images/teachers_1.png" alt="Фотография преподавателя"></a>
+                            <a class="teachers__initials"><h3>Романовский Владимир Станиславович</h3></a>
+
+                            <div class="teachers__stars">
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_white"></span>
+                            </div>
+
+                            <div class="teachers__subject">Математика, Высшая математика</div>
+                            <div class="teachers__experience">Опыт: 12 лет</div>
+                            <div class="teachers__price">2500 &#8381;<span class="teachers__price_span">/ занятие</span></div>
+
+                            <button class="teachers__btn">Выбрать преподавателя</button>
+                        </div>
+
+                        <div class="teachers__list">
+                            <a class="teachers__link"><img class="teachers__link_img" src="/images/teachers_2.png" alt="Фотография преподавателя"></a>
+                            <a class="teachers__initials"><h3>Аширкаев Станислав Альбертович</h3></a>
+
+                            <div class="teachers__stars">
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_white"></span>
+                            </div>
+
+                            <div class="teachers__subject">Математика, Высшая математика</div>
+                            <div class="teachers__experience">Опыт: 12 лет</div>
+                            <div class="teachers__price">2500 &#8381;<span class="teachers__price_span">/ занятие</span></div>
+
+                            <button class="teachers__btn">Выбрать преподавателя</button>
+                        </div>
+
+                        <div class="teachers__list">
+                            <a class="teachers__link"><img class="teachers__link_img" src="/images/teachers_3.png" alt="Фотография преподавателя"></a>
+                            <a class="teachers__initials"><h3>Оверчинко Елизавета Владимировна</h3></a>
+
+                            <div class="teachers__stars">
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_white"></span>
+                            </div>
+
+                            <div class="teachers__subject">Математика, Высшая математика</div>
+                            <div class="teachers__experience">Опыт: 12 лет</div>
+                            <div class="teachers__price">2500 &#8381;<span class="teachers__price_span">/ занятие</span></div>
+
+                            <button class="teachers__btn">Выбрать преподавателя</button>
+                        </div>
+
+                        <div class="teachers__list">
+                            <a class="teachers__link"><img  class="teachers__link_img" src="/images/teachers_4.png" alt="Фотография преподавателя"></a>
+                            <a class="teachers__initials"><h3>Романовский Владимир Станиславович</h3></a>
+
+                            <div class="teachers__stars">
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_blue"></span>
+                                <span class="teachers__star_white"></span>
+                            </div>
+
+                            <div class="teachers__subject">Математика, Высшая математика</div>
+                            <div class="teachers__experience">Опыт: 12 лет</div>
+                            <div class="teachers__price">2500 &#8381;<span class="teachers__price_span">/ занятие</span></div>
+
+                            <button class="teachers__btn">Выбрать преподавателя</button>
+                        </div>
+                    </div>
+
+                    <button class="teachers__button"><span class="teachers__button_span">Загрузить ещё</span></button>
+
+                    <div class="teachers__logo_big">
+                        <img class="teachers__logo_img" src="/images/teachers_logo_big.png" alt="Лого">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container reviews__container">
+
+                <div class="reviews__content">
+
+                    <h2 class="title-middle title-middle-marg">Отзывы</h2>
+
+                    <div class="row">
+                        <div class="button-cover">
+                            <div class="button btn" id="button-id" id="show">
+                                <input type="checkbox" class="checkbox">
+                                <div class="knobs">
+                                    <span>Репетиторов</span>
+                                </div>
+
+                                <div class="layer" id="hide"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews__elems">
+
+                        <div class="owl-carousel reviews__slider">
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_1.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Владимир Романовский</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_2.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Дмитрий Цыпленков</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_3.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Владимир Романовский</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_1.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Константин Езовский</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_2.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Андрей Пыхалов</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_3.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Владислав Бабушкин</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_1.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Вальдемар Красин</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_2.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Дмитрий Агущев</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_3.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Игорь Минаев</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem">
+                                <div class="reviews__photo">
+                                    <a class="reviews__link"><img class="reviews__link_img" src="/images/reviews_user_1.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users">
+                                    <h6 class="reviews__initials">Владимир Романовский</h6>
+                                    <span class="reviews__user-status">Ученик</span>
+                                    <p class="reviews__review-text">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read"><span class="reviews__read_more">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="owl-carousel2 reviews__slider2">
+
+                            <div class="reviews__elem2">
+                                <div class="reviews__photo2">
+                                    <a class="reviews__link2"><img class="reviews__link_img" src="/images/reviews_user_1.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users2">
+                                    <h6 class="reviews__initials2">Владимир Романовский</h6>
+                                    <span class="reviews__user-status2">Репетитор</span>
+                                    <p class="reviews__review-text2">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read2"><span class="reviews__read_more2">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem2">
+                                <div class="reviews__photo2">
+                                    <a class="reviews__link2"><img class="reviews__link_img" src="/images/reviews_user_2.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users2">
+                                    <h6 class="reviews__initials2">Дмитрий Цыпленков</h6>
+                                    <span class="reviews__user-status2">Репетитор</span>
+                                    <p class="reviews__review-text2">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read2"><span class="reviews__read_more2">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem2">
+                                <div class="reviews__photo2">
+                                    <a class="reviews__link2"><img class="reviews__link_img" src="/images/reviews_user_3.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users2">
+                                    <h6 class="reviews__initials2">Владимир Романовский</h6>
+                                    <span class="reviews__user-status2">Репетитор</span>
+                                    <p class="reviews__review-text2">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read2"><span class="reviews__read_more2">Читать далее</span></a>
+                                </div>
+                            </div>
+
+                            <div class="reviews__elem2">
+                                <div class="reviews__photo2">
+                                    <a class="reviews__link2"><img class="reviews__link_img" src="/images/reviews_user_3.png" alt="Фото ученика"></a>
+                                </div>
+
+                                <div class="reviews__users2">
+                                    <h6 class="reviews__initials2">Андрей Романов</h6>
+                                    <span class="reviews__user-status2">Репетитор</span>
+                                    <p class="reviews__review-text2">Принимая во внимание показатели успешности, внедрение современных методик говорит о возможностях инновационных методов управления процессами...</p>
+                                    <a class="reviews__read2"><span class="reviews__read_more2">Читать далее</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews__nav">
+                            <button class="reviews__nav_btn-prev"><span class="slider-prev"></span></button>
+
+                            <button class="reviews__nav_btn-next"><span class="slider-next"></span></button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+
+                <div class="advantages__content">
+
+                    <h2 class="title-middle">Преимущества</h2>
+
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <div class="advantages__calendar_image">
+                                <img class="advantages__calendar_image_img" src="/images/advantages_calendar.png" alt="Видеозвонки">
+                            </div>
+                            <h3 class="advantages__header">Интеграция <br> с Google календарем</h3>
+                            <p class="advantages__text">Проводите занятия онлайн по видеосвязи, обменивайтесь сообщениями и файлами, устанавливайте таймер занятия</p>
+                        </li>
+
+                        <li class="advantages__item">
+                            <div class="advantages__analytics_image">
+                                <img class="advantages__analytics_image_img" src="/images/advantages_analytics-graph.png" alt="Видеозвонки">
+                            </div>
+                            <h3 class="advantages__header">Аналитические инструменты</h3>
+                            <p class="advantages__text">Проводите занятия онлайн по видеосвязи, обменивайтесь сообщениями и файлами, устанавливайте таймер занятия</p>
+                        </li>
+
+                        <li class="advantages__item">
+                            <div class="advantages__schedule_image">
+                                <img class="advantages__schedule_image_img" src="/images/advantages_shedule.png" alt="Видеозвонки">
+                            </div>
+                            <h3 class="advantages__header">Настройки расписания</h3>
+                            <p class="advantages__text">Проводите занятия онлайн по видеосвязи, обменивайтесь сообщениями и файлами, устанавливайте таймер занятия</p>
+                        </li>
+
+                        <li class="advantages__item">
+                            <div class="advantages__interactive_image">
+                                <img class="advantages__interactive_image_img" src="/images/advantages_interactive.png" alt="Видеозвонки">
+                            </div>
+                            <h3 class="advantages__header">Интерактивная <br> доска</h3>
+                            <p class="advantages__text">Проводите занятия онлайн по видеосвязи, обменивайтесь сообщениями и файлами, устанавливайте таймер занятия</p>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <div class="footer__logo_row1">
+                            <a href="#"><img src="/images/footer_logo.png" alt="Logo"></a>
+
+                            <p class="footer__about_text">Платформа для репетиторов и учеников</p>
+                        </div>
+
+
+                        <div class="footer__logo_row2">
+                            <p class="footer__about_text">2024 &#9400; Название компании. Все права защищены</p>
+
+                            <a href="#" class="footer__about_text"><span class="footer__link_privacy-policy">Политика конфиденциальности</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer__element">
+                        <h3 class="footer__title">Меню</h3>
+
+                        <ul class="footer__list">
+                            <li class="footer__item"><a class="footer__link" href="#">Функционал</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">Поиск преподавателей</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">Отзывы</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">Преимущества</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__element">
+                        <h3 class="footer__title">Клиентам</h3>
+
+                        <ul class="footer__list">
+                            <li class="footer__item"><a class="footer__link" href="#">Вопрос-ответ</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">Сотрудничество</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">Пробный период</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">Реферальная программа</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__element elem-contact">
+                        <h3 class="footer__title">Наши контакты</h3>
+
+                        <ul class="footer__list">
+                            <li class="footer__item"><a class="footer__link" href="#">support@platform.com</a></li>
+                            <li class="footer__item"><a class="footer__link" href="#">8 (937) 332-32-32</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__element elem">
+                        <h3 class="footer__title footer__title_social-icon">Мы в соц.сетях</h3>
+
+                        <div class="footer__social_icon">
+                            <ul class="footer__social_icon-list ">
+                                <li><a class="footer__social_icon_link" href="#"><img src="/images/ico_telegram.png" alt="#"></a></li>
+                                <li><a class="footer__social_icon_link" href="#"><img src="/images/ico_youtube.png" alt="#"></a></li>
+                                <li><a class="footer__social_icon_link" href="#"><img src="/images/ico_whatsapp.png" alt="#"></a></li>
+                                <li><a class="footer__social_icon_link" href="#"><img src="/images/ico_vk.png" alt="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="libs/OwlCarousel/owl.carousel.min.js"></script>
+
+    <script src="js/jquery_js.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
