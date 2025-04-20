@@ -164,7 +164,7 @@ li {
     width: 22px;
     height: 22px;
 
-    background-image: url('/images/header_login.png');
+    background-image: url('images/header_login.png');
     background-repeat: no-repeat;
 
     position: absolute;
@@ -206,7 +206,7 @@ li {
     width: 24px;
     height: 20px;
 
-    background-image: url('/images/header_registration.png');
+    background-image: url('images/header_registration.png');
     background-repeat: no-repeat;
 
     filter: brightness(0.3);
@@ -228,7 +228,7 @@ li {
     flex-wrap: wrap;
     position: relative;
 
-    background-image: url('/images/bg_image.png');
+    background-image: url('images/bg_image.png');
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -525,7 +525,7 @@ li {
 .teachers-choice__link::before {
     content: '';
     display: block;
-    background-image: url('/images/teachers_arrow_down.png');
+    background-image: url('images/teachers_arrow_down.png');
     background-repeat: no-repeat;
     background-position: center;
     width: 12px;
@@ -629,50 +629,12 @@ fieldset {
     transform: translateY(-50%);
     right: 7%;
 
-    background-image: url('/images/teachers_arrow_down.png');
+    background-image: url('images/teachers_arrow_down.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 12px;
     height: 7px;
 }
-
-/* .teacher-form__select::before {
-    content: '';
-    display: block;
-
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 7%;
-
-    background-image: url('/images/teachers_arrow_down.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 12px;
-    height: 7px;
-} */
-
-/* .teacher-form__select {
-    position: relative;
-}
-
-.teacher-form__select:before {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 0;
-    height: 0;
-
-    margin-top: -5px;
-    border-style: solid;
-    border-width: 8px 5px 0 5px;
-    border-color: rgba(0, 0, 0, 1) transparent transparent transparent;
-    pointer-events: none;
-} */
-
-/* ========= */
 
 .teachers-choice__options {
     display: none;
@@ -761,13 +723,13 @@ fieldset {
 }
 
 .teachers__star_blue {
-    background-image: url('/images/teachers_star_blue.png');
+    background-image: url('images/teachers_star_blue.png');
     width: 20px;
     height: 19px;
 }
 
 .teachers__star_white {
-    background-image: url('/images/teachers_star_white.png');
+    background-image: url('images/teachers_star_white.png');
     width: 20px;
     height: 19px;
 }
@@ -855,7 +817,7 @@ fieldset {
     content: '';
     display: block;
 
-    background-image: url('/images/teachers_points.png');
+    background-image: url('images/teachers_points.png');
     background-repeat: no-repeat;
     background-position: center center;
     width: 24px;
@@ -1085,14 +1047,14 @@ fieldset {
     top: 30%;
     right: -18%;
 
-    background-image: url('/images/reviews_arrow_left.png');
+    background-image: url('images/reviews_arrow_left.png');
     background-repeat: no-repeat;
     width: 12px;
     height: 9px;
 }
 
 .reviews__read_more:hover::after {
-    background-image: url('/images/reviews_arrow_read_more_hover.png');
+    background-image: url('images/reviews_arrow_read_more_hover.png');
     background-repeat: no-repeat;
 }
 
@@ -1140,7 +1102,7 @@ fieldset {
     top: -22px;
     left: -2px;
 
-    background-image: url('/images/reviews_arrow_left_circle.png');
+    background-image: url('images/reviews_arrow_left_circle.png');
     background-repeat: no-repeat;
     height: 35px;
     width: 35px;
@@ -1149,7 +1111,7 @@ fieldset {
 }
 
 .slider-prev:hover {
-    background-image: url('/images/reviews_arrow_circle_hover.png');
+    background-image: url('images/reviews_arrow_circle_hover.png');
     transform: rotate(180deg);
     height: 35px;
     width: 35px;
@@ -1194,7 +1156,7 @@ fieldset {
     top: -22px;
     left: -2px;
 
-    background-image: url('/images/reviews_arrow_left_circle.png');
+    background-image: url('images/reviews_arrow_left_circle.png');
     background-repeat: no-repeat;
     transform: rotate(180deg);
     height: 35px;
@@ -1205,7 +1167,7 @@ fieldset {
 
 .slider-next:hover {
     cursor: pointer;
-    background-image: url('/images/reviews_arrow_circle_hover.png');
+    background-image: url('images/reviews_arrow_circle_hover.png');
     height: 35px;
     width: 35px;
 
