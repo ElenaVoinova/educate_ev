@@ -107,7 +107,8 @@ li {
 }
 
 .header-nav__link:hover::before {
-    content: '';
+    content: "";
+    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
@@ -160,7 +161,8 @@ li {
 }
 
 .header-buttons__enter::before {
-    content: '';
+    content: "";
+    display: inline-block;
     width: 22px;
     height: 22px;
 
@@ -202,7 +204,8 @@ li {
 }
 
 .header-buttons__registration::before {
-    content: '';
+    content: "";
+    display: inline-block;
     width: 24px;
     height: 20px;
 
@@ -237,7 +240,7 @@ li {
 }
 
 .main::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
