@@ -371,7 +371,6 @@
 
     #check:checked ~ .header-nav {
         visibility: visible;
-        /* position: fixed; */
     }
 
     .header-nav {
@@ -408,7 +407,7 @@
     }
 
     .header-nav__link:hover {
-        color: #ffffff;
+        color: #35A8E7;
         cursor: pointer;
     }
 
