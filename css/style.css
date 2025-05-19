@@ -603,9 +603,9 @@ fieldset {
     background-image: url('../images/teachers_arrow_down.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     width: 14px;
     height: 9px;
-    background-position: center;
 }
 
 .teachers-choice__options {
